@@ -1,0 +1,54 @@
+.google-signin{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    justify-content: center;
+    background:none;
+}
+.goog-sign{
+    width: 28vw;
+    height: 15vw;
+    padding-top: vh;
+}
+.sign-name{
+    background: none;
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.461);
+    width: 98%;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.sign-name:focus{
+    outline: none;
+}
+.user-login{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center ;
+}
+.user-login-in{
+    width: 30vw;
+    background: none;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10vh;
+    height: 65vh;
+}
+.user-login-btn{
+    padding: 8px;
+    padding-left:10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(13, 105, 225);
+    border: none;
+    border-radius:3px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20vh;
+    cursor: pointer;
+}
+.signin-logo{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}

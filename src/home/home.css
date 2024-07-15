@@ -1,0 +1,8 @@
+.nav{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
